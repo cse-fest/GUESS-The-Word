@@ -6,16 +6,23 @@ let currentStudent = {};
 
 // Questions (images and correct answers)
 const questions = [
-    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtkzZMTh_n9DE3CznuCnA8wVdQI7IQT9sDng&s", answer: "apple" },
-    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlLl7Ube9nrVCDvTsMrl2asFiNfNBYzc0A3Q&s", answer: "football" },
-    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1_uezKvEshssVMuGfAaPdqCIeqLl8H2_Qjg&s", answer: "tree" },
-    { image: "https://static.vecteezy.com/system/resources/thumbnails/002/839/176/small_2x/chemistry-model-of-molecule-water-h2o-scientific-elements-integrated-particles-hydrogen-and-oxygen-natural-inorganic-compound-3d-molecular-structure-illustration-isolated-on-white-background-vector.jpg", answer: "water" },
-    { image: "https://media.baamboozle.com/uploads/images/124918/1620234130_36275.jpeg", answer: "mango" },
-    { image: "https://media.baamboozle.com/uploads/images/124918/1620231866_32996.jpeg", answer: "boxing" },
-    { image: "https://media.baamboozle.com/uploads/images/124918/1620231373_34398.jpeg", answer: "table tennis" },
-    { image: "https://media.baamboozle.com/uploads/images/124918/1620232553_33115.jpeg", answer: "Fanta" },
-    { image: "https://media.baamboozle.com/uploads/images/124918/1620233341_34098.jpeg", answer: "turkey" },
-    { image: "https://media.baamboozle.com/uploads/images/124918/1620233460_35778.jpeg", answer: "monkey" },
+    { image: "https://www.infoworld.com/wp-content/uploads/2024/06/1200px-burmese_python_02-100637340-orig.jpg?quality=50&strip=all", answer: "python" },
+    { image: "https://i.pinimg.com/originals/5d/55/dc/5d55dccc5a2aa18956ff248b36d68498.jpg", answer: "keyboard" },
+    { image: "https://i.ibb.co.com/rb87RYw/pad.png", answer: "Mousepad" },
+    { image: "https://i.ibb.co.com/HntN7Jw/pad-2.png", answer: "upload" },
+    { image: "https://i.ibb.co.com/s9tqWnc/Untitled-design.png", answer: "network" },
+    { image: "https://i.ibb.co.com/5xPSc8L/pad-3.png", answer: "download" },
+    { image: "https://i.ibb.co.com/wwsvTBs/pad-4.png", answer: "Desktop" },
+    { image: "https://i.ibb.co.com/SKv85Py/pad-5.png", answer: "homepage" },
+    { image: "https://i.ibb.co.com/mDKcY5s/pad-1.png", answer: "Binary" },
+    { image: "https://i.ibb.co.com/WfBWQPp/Brown-Simple-Digital-Marketing-Presentation.png", answer: "Assignment" },
+    { image: "https://www.researchgate.net/publication/352805723/figure/fig1/AS:1137917024055298@1648311968840/Flowchart-of-Binary-Search-Algorithm.ppm", answer: "Binary Search" },
+    { image: "https://media.baamboozle.com/uploads/images/323069/1621596383_236040.png", answer: "logout" },
+    { image: "https://media.baamboozle.com/uploads/images/323069/1621569996_110294.png", answer: "youtube" },
+    { image: "https://wat-images.s3.ap-south-1.amazonaws.com/images/course/ci6ldqnqthum/Quick_Sort_0.png", answer: "Quick Sort" },
+    { image: "https://www.c-programming-simple-steps.com/images/merge-sort-visual.png", answer: "merge sort" },
+   
+
 
 
     // Add more questions as needed
