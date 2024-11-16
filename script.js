@@ -55,21 +55,46 @@ function loadQuestion() {
 }
 
 // Submit answer
+// function submitAnswer() {
+//     const guess = document.getElementById("imageGuess").value.trim().toLowerCase();
+//     if (guess === questions[questionIndex].answer.toLowerCase()) {
+//         score += 1;
+//         document.getElementById("score").innerText = `Score: ${score}`;
+//     }
+//     questionIndex++;
+//     loadQuestion();
+// }
+
+// Submit answer
 function submitAnswer() {
     const guess = document.getElementById("imageGuess").value.trim().toLowerCase();
     if (guess === questions[questionIndex].answer.toLowerCase()) {
-        score += 5;
+        score += 1;
         document.getElementById("score").innerText = `Score: ${score}`;
+        questionIndex++;
+        loadQuestion();
+    } else {
+        endGame(); // End the game if the answer is incorrect
     }
-    questionIndex++;
-    loadQuestion();
 }
 
+
+
+
+
+
+
+// End game and save score to Firebase
+// function endGame() {
+//     document.getElementById("quiz-section").style.display = "none";
+//     saveScore();
+//     showLeaderboard();
+// }
 // End game and save score to Firebase
 function endGame() {
+    saveScore(); // Save the score first
     document.getElementById("quiz-section").style.display = "none";
-    saveScore();
-    showLeaderboard();
+    showLeaderboard(); // Then display the leaderboard
 }
 
 // Save score in Firestore
