@@ -70,7 +70,7 @@ function submitAnswer() {
     const guess = document.getElementById("imageGuess").value.trim().toLowerCase();
     if (guess === questions[questionIndex].answer.toLowerCase()) {
         score += 1;
-        document.getElementById("score").innerText = `Score: ${score}`;
+        document.getElementById("score").innerText = `Level : ${score}`;
         questionIndex++;
         loadQuestion();
     } else {
